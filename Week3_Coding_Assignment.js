@@ -247,6 +247,15 @@ function Question12() {
 	
 }
 
+function Question13() {
+	
+	//
+	// no ideas
+	//
+		
+}
+
+
 
 
 // need this array for question 3 and 4 so we'll make it global
@@ -288,7 +297,7 @@ console.log("2nd run: is the average of the first array greater than the second?
 console.log("3rd run in reverse: is the average of the first array greater than the second?" , Question11(myArray2, myArray));
 console.log("Question 12 - contains a function which determines if you can buy a drink, given enough cash and it being hot enough");
 Question12();
-
+Question13();
 
 
 
