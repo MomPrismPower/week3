@@ -247,15 +247,6 @@ function Question12() {
 	
 }
 
-function Question13() {
-	
-	//
-	// no ideas
-	//
-		
-}
-
-
 
 
 // need this array for question 3 and 4 so we'll make it global
@@ -286,6 +277,7 @@ console.log("Question 9");
 console.log("myArray for the next couple questions", myArray);
 console.log("is sum of values in myArray greater than 100", Question9(myArray));
 // Question 10 we'll use the array from 9
+console.log("Question 10, with the same array as 9");
 Question10(myArray);
 // Question 11 says to send 2 arrays - I'm just going to send the same one twice for PoC. Numbers are numbers.
 // because we sent the same array twice, we will alway expect false because they are equal.
@@ -297,7 +289,7 @@ console.log("2nd run: is the average of the first array greater than the second?
 console.log("3rd run in reverse: is the average of the first array greater than the second?" , Question11(myArray2, myArray));
 console.log("Question 12 - contains a function which determines if you can buy a drink, given enough cash and it being hot enough");
 Question12();
-Question13();
+
 
 
 
